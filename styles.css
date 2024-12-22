@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:80px;
+    background-image:linear-gradient(to bottom,black,purple);
+
+}
+.container {
+    width:500px;
+    height: 250px;
+    display:flex;
+    background-color: rgba(0, 0, 0, 0);
+    padding:10px;
+    margin: 500px;
+
+
+}
+.clock{
+    width:100%;
+    color: rgb(255, 244, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px rgb(253, 253, 253) solid ;
+    border-radius: 20px;
+    box-shadow: inset;
+    padding:10px;
+    gap: 10px;
+
+}

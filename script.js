@@ -3,10 +3,6 @@ function ClockTime(){
     const  minute=document.getElementById("minute");
     const  second=document.getElementById("second");
     const  session=document.getElementById("session");
-    const  date=document.getElementById("date");
-    const  month=document.getElementById("month");
-    const  year =document.getElementById("year");
-
     const d = new Date();
     var hrs = d.getHours();
     var mins = d.getMinutes();
@@ -31,10 +27,6 @@ function ClockTime(){
     minute.textContent=mins;
     second.textContent=sec;
     
-    
-
-
-
 }
 setInterval(ClockTime,1000);
 ClockTime();
